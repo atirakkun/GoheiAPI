@@ -7,9 +7,9 @@ const hpp = require("hpp");
 
 const AppError = require("./utils/appError");
 const globalErrorHandler = require("./controllers/errorController");
-const kanjiRouter = requireq("./routes/kanjiRouter");
-const userRouter = requireq("./routes/userRouter");
-const vocabularioRouter = requireq("./routes/vocabularioRouter");
+const kanjiRouter = require("./routes/kanjiRouter");
+const userRouter = require("./routes/userRouter");
+const vocabularioRouter = require("./routes/vocabularioRouter");
 
 const app = express();
 
